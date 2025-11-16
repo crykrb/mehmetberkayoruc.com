@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mehmet Berkay Oruç | System & Network Specialist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="System & Network Specialist. Windows Server, Active Directory, FortiGate, VMware, QNAP ve kurumsal altyapı projeleri."
+  >
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <meta property="og:title" content="Mehmet Berkay Oruç | System & Network Specialist">
+  <meta
+    property="og:description"
+    content="Kurumsal altyapıları devralıp daha güvenli, stabil ve dokümante hale getiren sistem ve ağ uzmanı."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/og-image.jpg">
+  <meta property="og:locale" content="tr_TR">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mehmet Berkay Oruç | System & Network Specialist">
+  <meta
+    name="twitter:description"
+    content="FortiGate, VMware, Windows Server, Active Directory ve QNAP ile çalışan sistem ve ağ uzmanı."
+  >
+  <meta name="twitter:image" content="img/og-image.jpg">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top" class="lang-transition show">
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#top" class="logo" data-i18n="logo">
+        <span class="logo-main">Mehmet Berkay</span>
+        <span class="logo-accent">Oruç</span>
+      </a>
+
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a href="#about" data-i18n="nav.about">Hakkımda</a></li>
+          <li><a href="#skills" data-i18n="nav.skills">Yetenekler</a></li>
+          <li><a href="#projects" data-i18n="nav.projects">Projeler</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">İletişim</a></li>
+        </ul>
+
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="tr">TR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+
+        <button id="navToggle" class="nav-toggle" aria-label="Menüyü Aç/Kapat">
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-text fade-in">
+          <p class="hero-kicker" data-i18n="hero.kicker">
+            Sistem ve Ağ Uzmanı
+          </p>
+          <h1 class="hero-title"></h1>
+          <p class="hero-sub" data-i18n="hero.subtitle">
+            Fabrika ve ofis altyapılarını güvenli, dokümante ve stabil hale getiren bir sistem ve ağ uzmanıyım. FortiGate,
+            VMware, Windows Server, AD ve QNAP üzerinde çalışıyorum.
+          </p>
+
+          <div class="hero-highlights">
+            <div class="hero-pill" data-i18n="hero.highlight1">Çok lokasyonlu domain altyapıları</div>
+            <div class="hero-pill" data-i18n="hero.highlight2">Güvenlik odaklı ağ tasarımı</div>
+            <div class="hero-pill" data-i18n="hero.highlight3">Yedekleme ve felaket kurtarma</div>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary" data-i18n="hero.btn.projects">Projelerimi Gör</a>
+            <a href="#contact" class="btn secondary" data-i18n="hero.btn.contact">İletişime Geç</a>
+            <a
+              id="cv-link"
+              href="TR_Mehmet_Berkay_Oruc_CV.pdf"
+              class="btn ghost"
+              data-i18n="hero.btn.cv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PDF CV
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-aside fade-in">
+          <div class="hero-photo-card">
+            <div class="hero-photo-wrap">
+              <img src="profile.jpg" alt="Mehmet Berkay Oruç">
+            </div>
+            <div class="hero-photo-meta">
+              <div class="hero-photo-name">Mehmet Berkay Oruç</div>
+              <div class="hero-photo-role" data-i18n="hero.photo.role">
+                System &amp; Network Specialist
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-card-title" data-i18n="hero.card1.title">Altyapı</div>
+            <p data-i18n="hero.card1.text">
+              Windows Server, Active Directory, DNS, DHCP, dosya sunucuları ve domain yapılarının uçtan uca tasarımı ve
+              yönetimi.
+            </p>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-title" data-i18n="hero.card2.title">Güvenlik</div>
+            <p data-i18n="hero.card2.text">
+              FortiGate firewall, VPN, VLAN segmentasyonu, erişim politikaları ve log analizi ile güvenlik odaklı ağ tasarımı.
+            </p>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-title" data-i18n="hero.card3.title">Süreç</div>
+            <p data-i18n="hero.card3.text">
+              ERP projelerinde süreç analizi, departmanlar arası koordinasyon ve IT–iş birimi entegrasyonu ile verimli
+              altyapılar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="about.title">Hakkımda</h2>
+
+        <div class="section-content">
+          <p data-i18n="about.p1">
+            Sistem ve ağ yönetimi alanında çalışan bir IT uzmanıyım. Sunucu yönetimi, ağ altyapıları, güvenlik duvarları,
+            IP kamera sistemleri, domain–hosting yönetimi ve web site tasarlama &amp; geliştirme konularında aktif olarak
+            çalışıyorum.
+          </p>
+          <p data-i18n="about.p2">
+            Fabrika ve ofis ortamlarında karmaşık altyapıları devralıp, bunları daha güvenli, dokümante ve sürdürülebilir
+            yapılara dönüştürmeyi hedefliyorum. Windows Server, Active Directory, DNS, DHCP, FortiGate, VMware ve QNAP NAS
+            altyapılarıyla çalışıyorum.
+          </p>
+          <p data-i18n="about.p3">
+            Teknolojiyi sürekli takip eden, detaylara önem veren ve sistemleri sade, anlaşılır ve yönetilebilir hale
+            getirmeye odaklanan bir yapım var. Sorun çözmeyi, kök sebebe inip kalıcı çözümler üretmeyi seviyorum.
+          </p>
+          <p data-i18n="about.p4">
+            İş dışında doğada vakit geçirmeyi seviyorum. Kanyoning, trekking ve farklı parkurlarda yürüyüş yapmak hem bana
+            enerji hem de mental olarak denge sağlıyor.
+          </p>
+          <p data-i18n="about.p5">
+            Kısaca; teknolojiye tutkuyla bağlı, çözüm odaklı ve sürekli gelişimi hedefleyen biriyim.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title" data-i18n="skills.title">Yetenekler</h2>
+
+        <div class="skills-grid">
+          <div class="skills-group">
+            <h3 data-i18n="skills.group1.title">Altyapı ve Sunucu</h3>
+            <ul>
+              <li data-i18n="skills.group1.item1">Windows Server 2012–2022, Active Directory, DNS, DHCP</li>
+              <li data-i18n="skills.group1.item2">GPO yönetimi, oturum ve güvenlik politikaları</li>
+              <li data-i18n="skills.group1.item3">Dosya sunucuları, erişim yetkileri ve paylaşım yapıları</li>
+            </ul>
+          </div>
+
+          <div class="skills-group">
+            <h3 data-i18n="skills.group2.title">Ağ ve Güvenlik</h3>
+            <ul>
+              <li data-i18n="skills.group2.item1">Ağ topolojisi tasarımı, VLAN, trunk ve temel routing</li>
+              <li data-i18n="skills.group2.item2">Fortinet FortiGate: policy, NAT, VPN, güvenlik profilleri</li>
+              <li data-i18n="skills.group2.item3">Çok lokasyonlu domain ve site-to-site VPN kurguları</li>
+            </ul>
+          </div>
+
+          <div class="skills-group">
+            <h3 data-i18n="skills.group3.title">Sanallaştırma ve Depolama</h3>
+            <ul>
+              <li data-i18n="skills.group3.item1">VMware ESXi, sanal sunucu planlama ve kaynak yönetimi</li>
+              <li data-i18n="skills.group3.item2">QNAP NAS, RAID yapılandırma, snapshot ve replikasyon</li>
+              <li data-i18n="skills.group3.item3">Yedekleme ve felaket kurtarma senaryoları</li>
+            </ul>
+          </div>
+
+          <div class="skills-group">
+            <h3 data-i18n="skills.group4.title">Uygulama ve Süreç</h3>
+            <ul>
+              <li data-i18n="skills.group4.item1">ERP süreç analizi, IT–iş birimi iletişimi ve proje takibi</li>
+              <li data-i18n="skills.group4.item2">Temel SQL, log analizi ve erişim kontrol planlaması</li>
+              <li data-i18n="skills.group4.item3">Web sitesi altyapısı, domain–hosting yönetimi, SSL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="projects.title">Projeler</h2>
+
+        <div class="projects-grid">
+          <article class="card project-card">
+            <h3 data-i18n="projects.p1.title">Kurumsal Altyapı Yenileme</h3>
+            <p data-i18n="projects.p1.text">
+              Mevcut sunucu, ağ ve güvenlik altyapısının modernleştirilmesi sürecini yönettim. Windows Server geçişleri,
+              Active Directory yeniden yapılandırması, GPO düzenlemeleri ve yeni yedekleme stratejisinin devreye alınmasıyla
+              kesinti süreleri ve manuel müdahaleler önemli ölçüde azaldı.
+            </p>
+            <p class="project-tags" data-i18n="projects.p1.tags">
+              Windows Server · AD · GPO · Yedekleme
+            </p>
+          </article>
+
+          <article class="card project-card">
+            <h3 data-i18n="projects.p2.title">FortiGate Güvenlik Duvarı Tasarımı</h3>
+            <p data-i18n="projects.p2.text">
+              Fortinet üzerinde güvenlik politikaları, NAT ve VPN kurgularını tasarlayıp uyguladım. VLAN segmentasyonu,
+              kullanıcı grupları ve log takibi ile hem güvenlik hem de ağ trafiği kontrolü iyileştirildi.
+            </p>
+            <p class="project-tags" data-i18n="projects.p2.tags">
+              FortiGate · VLAN · VPN · Log Analizi
+            </p>
+          </article>
+
+          <article class="card project-card">
+            <h3 data-i18n="projects.p3.title">VMware ve QNAP Üzerinde Sanallaştırma</h3>
+            <p data-i18n="projects.p3.text">
+              Fiziksel sunucuların VMware ESXi altyapısına taşınmasını ve QNAP NAS üzerinde RAID, snapshot ve replikasyon
+              planlamalarını gerçekleştirdim. Böylece yedekleme sürekliliği ve geri dönüş senaryoları güçlendirildi.
+            </p>
+            <p class="project-tags" data-i18n="projects.p3.tags">
+              VMware ESXi · QNAP · RAID · Snapshot
+            </p>
+          </article>
+
+          <article class="card project-card">
+            <h3 data-i18n="projects.p4.title">ERP Süreç Yeniden Yapılandırma</h3>
+            <p data-i18n="projects.p4.text">
+              ERP geçiş sürecinde departman ihtiyaçlarını toplayarak süreç akışlarını yeniden tasarladım. IT altyapısı ile
+              ERP uyumunu sağlayarak veri giriş hatalarını ve manuel iş yükünü azalttım.
+            </p>
+            <p class="project-tags" data-i18n="projects.p4.tags">
+              ERP · Süreç Analizi · IT–İş Entegrasyonu
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contact.title">İletişim</h2>
+
+        <div class="contact-layout">
+          <div class="contact-info">
+            <p data-i18n="contact.intro">
+              Her türlü soru, proje talebi veya teknik destek için benimle iletişime geçebilirsiniz. Mail ve LinkedIn
+              üzerinden ulaşmanız en hızlı yanıt almamı sağlar.
+            </p>
+
+            <div class="contact-grid">
+              <div class="label contact-label-icon">
+                <span class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M4 4h16v16H4z"/>
+                    <path d="M4 4l8 7 8-7"/>
+                  </svg>
+                </span>
+                <span data-i18n="contact.email.label">E-posta</span>
+              </div>
+              <div class="value">
+                <a href="mailto:berkayoruuc@icloud.com">berkayoruuc@icloud.com</a>
+              </div>
+
+              <div class="label contact-label-icon">
+                <span class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-14h4v2"/>
+                    <circle cx="5" cy="5" r="2"/>
+                    <path d="M3 9h4v14H3z"/>
+                  </svg>
+                </span>
+                <span data-i18n="contact.linkedin.label">LinkedIn</span>
+              </div>
+              <div class="value">
+                <a href="https://www.linkedin.com/in/mehmetberkayoruc" target="_blank" rel="noopener noreferrer">
+                  linkedin.com/in/mehmetberkayoruc
+                </a>
+              </div>
+
+              <div class="label contact-label-icon">
+                <span class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M12 1a11 11 0 0 0-3.5 21.4c.55.1.75-.25.75-.55v-1.9c-3.1.7-3.75-1.5-3.75-1.5-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 .1.6 1.9.6 1.9.5 1.6 1.9 1.1 2.4.85.05-.8.4-1.3.7-1.6-2.45-.3-5-1.3-5-5.7 0-1.2.45-2.2 1.2-3-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0C17 5.3 18 5.6 18 5.6c.6 1.6.2 2.8.1 3.1.75.8 1.2 1.8 1.2 3 0 4.5-2.6 5.4-5 5.7.35.3.75 1 .75 2v3c0 .3.2.65.75.55A11 11 0 0 0 12 1z"/>
+                  </svg>
+                </span>
+                <span data-i18n="contact.github.label">GitHub</span>
+              </div>
+              <div class="value">
+                <a href="https://github.com/crykrb" target="_blank" rel="noopener noreferrer">
+                  github.com/crykrb
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <form class="contact-form">
+              <div class="form-field">
+                <label for="name" data-i18n="contact.form.name.label">Adınız</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Adınız"
+                  data-i18n-placeholder="contact.form.name.placeholder"
+                >
+              </div>
+
+              <div class="form-field">
+                <label for="email" data-i18n="contact.form.email.label">E-posta adresiniz</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="ornek@adres.com"
+                  data-i18n-placeholder="contact.form.email.placeholder"
+                >
+              </div>
+
+              <div class="form-field">
+                <label for="message" data-i18n="contact.form.message.label">Mesajınız</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Kısaca yazabilirsiniz"
+                  data-i18n-placeholder="contact.form.message.placeholder"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn primary full-width" data-i18n="contact.form.submit">
+                Gönder
+              </button>
+
+              <p class="form-note" data-i18n="contact.form.note">
+                Not: İletişim formu ön izleme amaçlıdır. En hızlı dönüş için lütfen e-posta veya LinkedIn üzerinden ulaşın.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-social">
+      <a href="mailto:berkayoruuc@icloud.com" aria-label="E-posta">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M4 4h16v16H4z"/>
+          <path d="M4 4l8 7 8-7"/>
+        </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/mehmetberkayoruc/" target="_blank" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-14h4v2"/>
+          <circle cx="5" cy="5" r="2"/>
+          <path d="M3 9h4v14H3z"/>
+        </svg>
+      </a>
+
+      <a href="https://github.com/crykrb" target="_blank" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M12 1a11 11 0 0 0-3.5 21.4c.55.1.75-.25.75-.55v-1.9c-3.1.7-3.75-1.5-3.75-1.5-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 .1.6 1.9.6 1.9.5 1.6 1.9 1.1 2.4.85.05-.8.4-1.3.7-1.6-2.45-.3-5-1.3-5-5.7 0-1.2.45-2.2 1.2-3-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0C17 5.3 18 5.6 18 5.6c.6 1.6.2 2.8.1 3.1.75.8 1.2 1.8 1.2 3 0 4.5-2.6 5.4-5 5.7.35.3.75 1 .75 2v3c0 .3.2.65.75.55A11 11 0 0 0 12 1z"/>
+        </svg>
+      </a>
+    </div>
+
+<p>
+  © <span id="year"></span> Mehmet Berkay Oruç — 
+  <span data-i18n="footer.text">Tüm hakları saklıdır.</span>
+</p>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-top-btn">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
